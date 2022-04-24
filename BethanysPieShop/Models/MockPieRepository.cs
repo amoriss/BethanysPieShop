@@ -22,7 +22,6 @@ namespace BethanysPieShop.Models
             
 
         public IEnumerable<Pie> PiesOfTheWeek { get; }
-
        
 
         public Pie GetPieById(int pieId)

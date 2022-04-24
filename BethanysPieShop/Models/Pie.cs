@@ -7,7 +7,7 @@ namespace BethanysPieShop.Models
 {
     public class Pie
     {
-        public int Id { get; set; }
+        //public int Id { get; set; }
         public string Name { get; set; }
         public string ShortDescription { get; set; }
         public string LongDescription { get; set; }
@@ -15,8 +15,10 @@ namespace BethanysPieShop.Models
         public string ImageUrl { get; set; }
         public string ImageThumbnailUrl { get; set; }
         public bool IsPieOfTheWeek { get; set; }
+        public bool InStock { get; set; }
+        public int CategoryId { get; set; }
         public Category Category { get; set; }
-        public int PieId { get; internal set; }
+        public int PieId { get; set; }
     }
 
 

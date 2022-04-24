@@ -21,3 +21,14 @@ C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\obj\Debug\net5.
 C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\obj\Debug\net5.0\ref\BethanysPieShop.dll
 C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\obj\Debug\net5.0\BethanysPieShop.pdb
 C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\obj\Debug\net5.0\BethanysPieShop.genruntimeconfig.cache
+C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\bin\Debug\net5.0\BethanysPieShop.Views.dll
+C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\bin\Debug\net5.0\BethanysPieShop.Views.pdb
+C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\obj\Debug\net5.0\BethanysPieShop.RazorAssemblyInfo.cache
+C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\obj\Debug\net5.0\BethanysPieShop.RazorAssemblyInfo.cs
+C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\obj\Debug\net5.0\BethanysPieShop.TagHelpers.input.cache
+C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\obj\Debug\net5.0\BethanysPieShop.TagHelpers.output.cache
+C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\obj\Debug\net5.0\BethanysPieShop.RazorCoreGenerate.cache
+C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\obj\Debug\net5.0\Razor\Views\Pie\List.cshtml.g.cs
+C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\obj\Debug\net5.0\BethanysPieShop.RazorTargetAssemblyInfo.cs
+C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\obj\Debug\net5.0\BethanysPieShop.Views.pdb
+C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\obj\Debug\net5.0\BethanysPieShop.csproj.CopyComplete

@@ -12,14 +12,24 @@ namespace BethanysPieShop.Controllers
         private readonly IPieRepository _pieRepository;
         private readonly ICategoryRepository _categoryRepository;
 
+        //ViewBag used to pass data
+        //ViewBag is a dynamic object that we can add data to from the Controller
         public PieController(IPieRepository pieRepository, ICategoryRepository categoryRepository)
         {
             _pieRepository = pieRepository;
             _categoryRepository = categoryRepository;
         }
 
-        public ViewResult List()
+        public ViewResult Index()
         {
+            ViewBag.Message = "Welcome to Bethany's Pie Shop";
+            return View();
+        }
+
+        //list all pies in application
+        public ViewResult List() //ViewResult return type that is built in to ASP.NET MVC
+        {
+            ViewBag.CurrentCategory = "Cheese cakes";
             return View(_pieRepository.AllPies);
         }
 
