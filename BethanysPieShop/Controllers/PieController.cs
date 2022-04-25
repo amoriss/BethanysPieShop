@@ -1,4 +1,5 @@
 ﻿using BethanysPieShop.Models;
+using BethanysPieShop.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -30,8 +31,12 @@ namespace BethanysPieShop.Controllers
         //ViewBag is a dynamic object that we can add data to from the Controller
         public ViewResult List() //ViewResult return type that is built-in to ASP.NET MVC
         {
-            ViewBag.CurrentCategory = "Cheese cakes";
-            return View(_pieRepository.AllPies);
+            //ViewBag.CurrentCategory = "Cheese cakes";
+            PiesListViewModel piesListViewModel = new PiesListViewModel();
+            piesListViewModel.Pies = _pieRepository.AllPies;
+
+            piesListViewModel.CurrentCategory = "Cheese cakes";
+            return View(piesListViewModel);
         }
 
     }
