@@ -7,7 +7,6 @@ C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\bin\Debug\net5.
 C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\bin\Debug\net5.0\BethanysPieShop.dll
 C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\bin\Debug\net5.0\ref\BethanysPieShop.dll
 C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\bin\Debug\net5.0\BethanysPieShop.pdb
-C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\obj\Debug\net5.0\BethanysPieShop.csproj.AssemblyReference.cache
 C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\obj\Debug\net5.0\BethanysPieShop.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\obj\Debug\net5.0\BethanysPieShop.AssemblyInfoInputs.cache
 C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\obj\Debug\net5.0\BethanysPieShop.AssemblyInfo.cs
@@ -32,3 +31,8 @@ C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\obj\Debug\net5.
 C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\obj\Debug\net5.0\BethanysPieShop.RazorTargetAssemblyInfo.cs
 C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\obj\Debug\net5.0\BethanysPieShop.Views.pdb
 C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\obj\Debug\net5.0\BethanysPieShop.csproj.CopyComplete
+C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\bin\Debug\net5.0\libman.json
+C:\Users\amori\repos\PluralSight\BethanysPieShop\BethanysPieShop\obj\Debug\net5.0\BethanysPieShop.csproj.AssemblyReference.cache

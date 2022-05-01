@@ -35,7 +35,8 @@ namespace BethanysPieShop
             }
 
             app.UseHttpsRedirection();
-            app.UseStaticFiles();
+            app.UseStaticFiles(); //Responsible for serving static files and that will default to serving the files in the wwwroot folder 
+                                   //Bootstrap has a dependency on jQuery 
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>

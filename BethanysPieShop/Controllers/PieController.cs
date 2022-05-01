@@ -1,5 +1,6 @@
 ﻿using BethanysPieShop.Models;
-using BethanysPieShop.ViewModels;
+using BethanysPieShop.VIewModels;
+using BethanysPieShop.VIewModels;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
