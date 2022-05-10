@@ -26,9 +26,9 @@ namespace BethanysPieShop
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<AppDbContext>(options =>
-                options.UseSqlServer());
-            services.AddScoped<IPieRepository, MockPieRepository>();
-            services.AddScoped<ICategoryRepository, MockCategoryRepository>();
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddScoped<IPieRepository, PieRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
             //services.AddTransient();  --> gives a new instance every time you ask for one
             //services.AddSingleton(); ---> a single instance for the entire application and reuse that single instance
             //services.AddScoped();  ---> per request, an instance will be created, and that instance remains active throughout the entire request
