@@ -20,6 +20,7 @@ namespace BethanysPieShop.Models
         public Category Category { get; set; }
         public int PieId { get; set; }
         public string AllergyInformation { get; set; }
+        //public string Notes { get; set; }
     }
 
 

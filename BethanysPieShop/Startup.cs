@@ -49,12 +49,22 @@ namespace BethanysPieShop
                                    //Bootstrap has a dependency on jQuery 
             app.UseRouting();
 
+
+            // Route defaults:
+            // When a request comes in that does not specify a value for the controller nor the action
+            // part, MVC will use these defaults. This will allow us to send a request to the root 
+            // of the site and automatically the index action of the home controller will be executed
+            // The id gives you the option to pass in a value for a selected pie. The question mark allows
+            // id to be optional.
             app.UseEndpoints(endpoints =>
             {             
-                
+                //Configuring the Routing System
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                    // adding a constraint would look like this: {id:int?}
+                    // the int part is the constraint. the last segment will not match if it is not an integer value
+                    // this allows us to check the actual content of the segment
 
             });
         }
